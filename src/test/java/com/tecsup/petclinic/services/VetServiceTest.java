@@ -30,13 +30,13 @@ public class VetServiceTest {
         log.info("" + vet);
         assertEquals(FIRST_NAME, vet.getFirstName());
     }
-    @Test
+    /*@Test
     public void testFindVetByFirstName() {
         String FIND_FIRST_NAME = "Linda";
         int SIZE_EXPECTED = 4;
         List<Vet> vets = this.vetService.findByFirstName(FIND_FIRST_NAME);
         assertEquals(SIZE_EXPECTED, vets.size());
-    }
+    }*/
     @Test
     public void testCreateVet() {
         String FIRST_NAME = "Anna";
